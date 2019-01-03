@@ -1,0 +1,124 @@
+﻿/*
+    Filename: quoteStyles.css
+    Date: 2.24.18
+    Author: William Ponton
+    Description:  Stylesheet for the Ponton Insurance Group Website
+*/
+
+/* Body Styles */
+body {
+    background-color: darkgrey;
+}
+
+/* Header Styles */
+/* H1 */
+h1 {
+    display: inline;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+/* H2 */
+h2 {
+    display: inline;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    border-bottom: 1px solid darkgrey;
+}
+
+/* H3 */
+h3 {
+    display: inline;
+    margin-right: auto;
+    margin-left: auto;
+    border-bottom: 1px solid darkgrey;
+}
+
+/* H4 */
+h4 {
+    display: inline;
+    margin-right: auto;
+    margin-left: auto;
+    border-bottom: 1px solid darkgrey;
+}
+
+/* Paragraph Styles */
+p {
+    font-weight: bold;
+}
+
+/* Class Selectors */
+/* Any Button with center/auto align */
+.button {
+    width: 5em;
+    float: left;
+    margin: auto;
+    padding: 0;
+}
+
+/* Any Display Label */
+.display {
+    color: white;
+    font-weight: bold;
+    margin: auto;
+    text-align: center;
+}
+
+/* Drop (DropDownList) Styles */
+.drop {
+    background: transparent;
+    margin-top: 0;
+    float: right;
+    margin: auto;
+    margin-bottom: 5px;
+    width: 10em;
+}
+
+/* Entry (Textbox) Styles */
+.entry {
+    background: transparent;
+    margin-top: 0;
+    float: right;
+    margin: auto;
+    margin-bottom: 5px;
+    width: 10em;
+}
+
+/* Error (Validation Summary) Styles */
+.error {
+    margin: auto;
+}
+
+/* Jumbotron - Logo and Background pic  Styles */
+.jumbotron {
+    display: block;
+    text-align: center;
+    color: white;
+    opacity: 0.8;
+}
+
+ /* Jumbotron Image Styles */
+ .jumbotron img {
+    display: inline;
+ }
+
+/* Support Email Styles */
+.support {
+    float: right;
+}
+
+/* Validator Styles */
+.warning {
+    color: red;
+    float: right;
+    font-weight: bold;
+}
+
+/* Label Styles */
+#label {
+    color: white;
+    float: left;
+    margin: auto;
+}
